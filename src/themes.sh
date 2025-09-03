@@ -38,6 +38,7 @@ case $SELECTED_THEME in
     ["bwhite"]="#787c99"
     ["byellow"]="#e0af68"
     ["session_bg"]="#e0af68"
+    ["session_name"]="#2A2F41"
   )
   ;;
 
@@ -63,6 +64,7 @@ case $SELECTED_THEME in
     ["bwhite"]="#343b58"
     ["byellow"]="#8f5815"
     ["session_bg"]="#8c4351"
+    ["session_name"]="#d5d5db"
   )
   ;;
 
@@ -89,6 +91,7 @@ case $SELECTED_THEME in
     ["bwhite"]="#787c99"
     ["byellow"]="#e0af68"
     ["session_bg"]="#e0af68"
+    ["session_name"]="#2A2F41"
   )
   ;;
 esac
