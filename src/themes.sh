@@ -3,6 +3,18 @@
 SELECTED_THEME="$(tmux show-option -gv @tokyo-night-tmux_theme)"
 TRANSPARENT_THEME="$(tmux show-option -gv @tokyo-night-tmux_transparent)"
 
+if command -v dark-notify >/dev/null 2>&1; then
+  DARK_MODE="$(dark-notify -e)"
+else
+  DARK_MODE="dark"
+fi
+
+if ["${DARK_MODE}" == "dark"]; then
+  SELECTED_THEME="storm"
+else
+  SELECTED_THEME="day"
+fi
+
 case $SELECTED_THEME in
 "storm")
   declare -A THEME=(
