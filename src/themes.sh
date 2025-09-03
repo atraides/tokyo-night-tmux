@@ -3,13 +3,6 @@
 SELECTED_THEME="$(tmux show-option -gv @tokyo-night-tmux_theme)"
 TRANSPARENT_THEME="$(tmux show-option -gv @tokyo-night-tmux_transparent)"
 
-DARK_OR_LIGHT=$(dark-notify -c)
-if [[ "${DARK_OR_LIGHT}" == "dark"]]; then
-  SELECTED_THEME="storm"
-else
-  SELECTED_THEME="day"
-fi
-
 case $SELECTED_THEME in
 "storm")
   declare -A THEME=(
@@ -84,7 +77,6 @@ case $SELECTED_THEME in
   )
   ;;
 esac
-
 
 # Override background with "default" if transparent theme is enabled
 if [ "${TRANSPARENT_THEME}" == 1 ]; then
