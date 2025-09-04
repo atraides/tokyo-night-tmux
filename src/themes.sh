@@ -9,7 +9,7 @@ else
   DARK_MODE="dark"
 fi
 
-if ["${DARK_MODE}" == "dark"]; then
+if [ ${DARK_MODE} == "dark" ]; then
   SELECTED_THEME="storm"
 else
   SELECTED_THEME="day"
