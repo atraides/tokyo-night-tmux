@@ -39,6 +39,7 @@ case $SELECTED_THEME in
     ["byellow"]="#e0af68"
     ["session_bg"]="#e0af68"
     ["session_name"]="#2A2F41"
+    ["focus_bg"]="#414868"
   )
   ;;
 
@@ -64,7 +65,8 @@ case $SELECTED_THEME in
     ["bwhite"]="#343b58"
     ["byellow"]="#8f5815"
     ["session_bg"]="#8c4351"
-    ["session_name"]="#d5d5db"
+    ["session_name"]="#d5d6db"
+    ["focus_bg"]="#d5d6db"
   )
   ;;
 
@@ -92,6 +94,7 @@ case $SELECTED_THEME in
     ["byellow"]="#e0af68"
     ["session_bg"]="#e0af68"
     ["session_name"]="#2A2F41"
+    ["focus_bg"]="#2A2F41"
   )
   ;;
 esac
